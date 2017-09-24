@@ -1,0 +1,24 @@
+{
+    "name": "dasprid/dagr-tzdb",
+    "type": "library",
+    "license": "BSD-2-Clause",
+    "authors": [
+        {
+            "name": "Ben Scholzen",
+            "email": "mail@dasprids.de"
+        }
+    ],
+    "require": {
+        "php-64bit": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dagr\\Tzdb\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Dagr\\Tzdb\\Dev\\": "dev/"
+        }
+    }
+}
